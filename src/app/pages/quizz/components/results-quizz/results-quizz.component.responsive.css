@@ -1,0 +1,11 @@
+@media (max-width: 425px) {
+    .results__container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .results__container__result {
+        font-size: 1.4rem;
+    }
+}

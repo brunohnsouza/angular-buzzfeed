@@ -1,0 +1,34 @@
+<div class="quizz__container">
+    <app-title-quizz
+        *ngIf="!finished"
+        questionTitle="{{ questionSelected?.question }}"
+    ></app-title-quizz>
+
+    <app-subtitle-quizz
+        *ngIf="!finished"
+        textSubtitle="Selecione uma opção:"
+    ></app-subtitle-quizz>
+
+    <section class="options"
+        *ngIf="!finished"
+    >
+        <app-button-quizz
+            *ngFor="let option of questionSelected?.options"
+            textButton="{{ option.name }}"
+            (click)="questionAnswered(option.alias)"
+        ></app-button-quizz>
+
+    </section>
+
+    <app-results-quizz
+        *ngIf="finished"
+        characterName="{{ characterName }}"
+        characterPhoto="{{ characterPhoto }}"
+        textResult="{{ answerSelected }}"
+    ></app-results-quizz>
+
+    <app-actions-quizz
+        *ngIf="finished"
+        (click)="restartQuizz()"
+    ></app-actions-quizz>
+</div>

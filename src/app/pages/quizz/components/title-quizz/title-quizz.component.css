@@ -1,0 +1,12 @@
+.title__container {
+    margin-bottom: .8rem;
+}
+
+.title__container h1 {
+    width: 100%;
+    overflow-wrap: break-word;
+    font-size: 3.2rem;
+    color: var(--text-color);
+
+    transition: all .2s ease-in-out;
+}

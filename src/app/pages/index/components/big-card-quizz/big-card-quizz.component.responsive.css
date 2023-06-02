@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+    .big-card__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    .big-card__container .big-card__container__left {
+        width: 100%;
+    }
+
+    .big-card__container__right {
+        width: 100%;
+        gap: .8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .big-card__container__right h2 {
+        line-height: 4.0rem;
+    }
+
+    .big-card__container__right h2 a {
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .big-card__container__right h2 {
+        line-height: 3.2rem;
+    }
+
+    .big-card__container__right h2 a {
+        font-size: 2.4rem;
+    }
+
+    .big-card__container__right p {
+        font-size: 1.4rem;
+    }
+}

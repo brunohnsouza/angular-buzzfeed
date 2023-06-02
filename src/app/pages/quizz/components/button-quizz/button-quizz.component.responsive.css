@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    .button__container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px) {
+    .button__container {
+        width: 100%;
+    }
+}

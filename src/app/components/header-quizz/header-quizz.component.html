@@ -1,0 +1,15 @@
+<div class="header__container">
+    <figure class="header__container__left">
+        <a [routerLink]="['/']">
+            <img src="../../../assets/img/buzzfeed.svg" alt="Logo vermelho do BuzzFeed">
+        </a>
+    </figure>
+
+    <div class="header__container__right">
+        <input (click)="changeTheme($event)" class="sr-only" type="checkbox" id="dark">
+    
+        <label for="dark">
+            <figure class="header__container__theme"></figure>
+        </label>
+    </div>
+</div>

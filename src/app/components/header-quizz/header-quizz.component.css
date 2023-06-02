@@ -1,0 +1,29 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: min(90%, 100%);
+    margin: 0 auto;
+    padding: 2.4rem 0;
+}
+
+.header__container__left {
+    width: 17.6rem;
+}
+
+.header__container__left a img {
+    width: 100%;
+}
+
+.header__container__right .header__container__theme {
+    width: 2.4rem;
+    height: 2.4rem;
+    background: var(--icon-theme-url) no-repeat center/cover;
+
+    transition: all .2s ease-in-out;
+}
+
+.header__container__right .header__container__theme:is(:hover) {
+    cursor: pointer;
+    opacity: .87;
+}

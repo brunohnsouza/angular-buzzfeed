@@ -1,0 +1,36 @@
+.actions__container {
+    width: max-content;
+    display: flex;
+    margin: 0 auto;
+    gap: 1.6rem;
+    white-space: nowrap;
+}
+
+.actions__container a {
+    font-weight: 500;
+    width: 100%;
+    line-height: 2.4rem;
+    box-shadow: var(--shadow);
+    padding: 1.2rem 2.4rem;
+    border-radius: .2rem;
+    text-align: center;
+    color: var(--text-color);
+
+    transition: all .2s ease-in-out;
+}
+
+.actions__container a:nth-child(1) {
+    background-color: var(--yellow-color);
+}
+.actions__container a:nth-child(1):is(:hover) {
+    opacity: .87;
+    cursor: pointer;
+}
+
+.actions__container a:nth-child(2) {
+    background-color: var(--bg-header-color);
+}
+.actions__container a:nth-child(2):is(:hover) {
+    background-color: var(--yellow-color);
+    cursor: pointer;
+}

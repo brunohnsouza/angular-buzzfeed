@@ -1,0 +1,21 @@
+<div class="small-card__container">
+    <figure class="small-card__container__left">
+        <a [routerLink]="['quizz', id]">
+            <img src="{{ photoCover }}" alt="Imagem relacionada a capa">
+        </a>
+    </figure>
+
+    <div class="small-card__container__right">
+        <h3>
+            <a [routerLink]="['quizz', id]">{{ cardTitle }}</a>
+        </h3>
+
+        <div class="small-card__container__right__author">
+            <figure>
+                <img src="{{ authorCover }}" alt="Imagem relacionada ao autor do artigo">
+            </figure>
+
+            <span>{{ cardAuthor }}</span>
+        </div>
+    </div>
+</div>

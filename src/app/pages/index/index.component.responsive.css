@@ -1,0 +1,5 @@
+@media (max-width: 375px) {
+    .main__quizzes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

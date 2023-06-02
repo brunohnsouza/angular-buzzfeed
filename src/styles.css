@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --bg-body-color: #EEEEFE;
+    --bg-header-color: #FFF;
+    --shadow: 0 0.125rem 0.313rem 0 rgba(0,0,0,0.2);
+    --gray-color: #535353;
+    --red-color: #EE2324;
+    --yellow-color: #FFEE00;
+    --text-color: #141414;
+    --icon-theme-url: url("./assets/img/sun.svg");
+    font-size: 62.5%;
+}
+
+.dark {
+    --bg-body-color: #141414;
+    --bg-header-color: #212121;
+    --gray-color: #808080;
+    --text-color: #FFF;
+    --icon-theme-url: url("./assets/img/moon.svg");
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--bg-body-color);
+    overflow-y: hidden;
+
+    transition: all .2s ease-in-out;
+}
+
+/* CSS TRICKS */
+
+.sr-only {
+    position: absolute;
+    width: 0.625rem;
+    height: 0.625rem;
+    padding: 0;
+    margin: -0.625rem;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border-width: 0;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

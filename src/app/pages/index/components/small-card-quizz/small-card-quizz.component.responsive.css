@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+    .small-card__container {
+        flex-direction: column;
+        gap: .8rem;
+    }
+
+    .small-card__container__left {
+        width: 100%;
+    }
+
+    .small-card__container__right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .small-card__container__right {
+        gap: .8rem;
+    }
+
+    .small-card__container__right h3 {
+        line-height: 2.2rem;
+    }
+
+    .small-card__container__right h3 a {
+        font-size: 1.4rem;
+    }
+
+    .small-card__container__right .small-card__container__right__author figure {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .small-card__container__right h3 {
+        line-height: 2.4rem;
+    }
+
+    .small-card__container__right h3 a {
+        font-size: 1.6rem;
+    }
+}

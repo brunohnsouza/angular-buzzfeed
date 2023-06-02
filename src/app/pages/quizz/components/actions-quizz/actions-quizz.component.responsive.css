@@ -1,0 +1,6 @@
+@media (max-width: 425px) {
+    .actions__container {
+        flex-direction: column;
+        width: 100%;
+    }
+}

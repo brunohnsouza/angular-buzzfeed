@@ -1,0 +1,22 @@
+.footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(90%, 100%);
+    margin: 0 auto;
+    padding: 2.4rem 0;
+}
+
+.footer__container ul {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.social svg {
+    fill: #808080;
+    transition: all .2s ease-in-out;
+}
+.social:is(:hover) svg {
+    opacity: .87;
+}

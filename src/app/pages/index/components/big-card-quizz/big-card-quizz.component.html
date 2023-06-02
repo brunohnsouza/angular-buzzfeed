@@ -1,0 +1,17 @@
+<div class="big-card__container">
+    <figure class="big-card__container__left">
+        <a [routerLink]="['quizz', id]">
+            <img src="{{ photoCover }}" alt="Imagem relacionada a capa.">
+        </a>
+    </figure>
+
+    <div class="big-card__container__right">
+        <span>{{ cardAuthor }}</span>
+
+        <h2>
+            <a [routerLink]="['quizz', id]">{{ cardTitle }}</a>
+        </h2>
+
+        <p>{{ cardDescription }}</p>
+    </div>
+</div>

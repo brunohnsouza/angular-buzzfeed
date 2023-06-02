@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+    .header__container__left {
+        width: 13.6rem;
+    }
+}

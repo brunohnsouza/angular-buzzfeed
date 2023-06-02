@@ -1,0 +1,23 @@
+<app-subtitle-quizz
+    iconSubtitle="../../../assets/img/list-checks.svg"
+    textSubtitle="Quizzes"
+></app-subtitle-quizz>
+
+<app-big-card-quizz
+    id="{{ database[0].id }}"
+    photoCover="{{ database[0].photoCover }}"
+    cardAuthor="by Bruno Souza"
+    cardTitle="{{ database[0].title }}"
+    cardDescription="{{ database[0].paragraph }}"
+></app-big-card-quizz>
+
+<section class="main__quizzes">
+    <app-small-card-quizz
+        *ngFor="let card of database.slice(1)"
+        id="{{ card.id }}"
+        photoCover="{{ card.photoCover }}"
+        cardAuthor="by Bruno Souza"
+        authorCover="https://avatars.githubusercontent.com/u/103577843?v=4"
+        cardTitle="{{ card.title }}"
+    ></app-small-card-quizz>
+</section>
