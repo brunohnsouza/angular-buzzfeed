@@ -48,7 +48,7 @@
 
 <h2 id="projeto">💻 <b>Projeto:</b></h2>
 
-- [Veja o projeto online](https://buzzfeed-quizz.vercel.app)
+- [Veja o projeto online](https://buzzfeed-quizzes.vercel.app/)
 
 <h2 id="layout">🎨 <b>Layout:</b></h2>
 
