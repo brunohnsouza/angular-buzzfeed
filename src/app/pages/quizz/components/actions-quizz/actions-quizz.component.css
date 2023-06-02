@@ -29,6 +29,7 @@
 
 .actions__container a:nth-child(2) {
     background-color: var(--bg-header-color);
+    color: var(--text-color);
 }
 .actions__container a:nth-child(2):is(:hover) {
     background-color: var(--yellow-color);
